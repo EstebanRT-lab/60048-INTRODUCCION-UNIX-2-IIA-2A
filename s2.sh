@@ -16,3 +16,5 @@
 #El punto punto ".." simboliza a la carpeta madre o contenedora del directorio en el que estoy 
 
 #cd / nos lleva al directorio raiz, el que contiene a todos los otros directorios 
+
+#touch crea un nuevo programa (después podemos confirmar que se creó con ls)
