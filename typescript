@@ -1,0 +1,1334 @@
+Script started on 2026-07-24 00:29:15+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="131" LINES="12"]
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ cp archivo1.tct[K[Kxt dir1/archivo1_copia.txt
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004lLICENSE    archivo1.txt  [0m[34;42mcarpeta[0m  [34;42mdir2[0m       miprograma.c  s2.sh  [34;42msenana4[0m
+README.md  archivo2.txt  [34;42mdir1[0m     [01;35mimage.png[0m  s1.sh         s4.sh  typescript
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ mv archivo2.txt dir2/archivo2_movido.txt
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004lLICENSE  README.md  archivo1.txt  [0m[34;42mcarpeta[0m  [34;42mdir1[0m  [34;42mdir2[0m  [01;35mimage.png[0m  miprograma.c  s1.sh  s2.sh  s4.sh  [34;42msenana4[0m  typescript
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls dir2
+[?2004larchivo2_movido.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ mv archivo1.txt art[Kchivo1_renombrado.txt
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004lLICENSE    archivo1_renombrado.txt  [0m[34;42mdir1[0m  [01;35mimage.png[0m     s1.sh  s4.sh    typescript
+README.md  [34;42mcarpeta[0m                  [34;42mdir2[0m  miprograma.c  s2.sh  [34;42msenana4[0m
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ pico archivo1_)[Krenombrado.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;12r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[10;59H(B[0;7m[ Reading... ](B[m[10;58H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2                                          archivo1_renombrado.txt                                                    [1;130H(B[m[11d(B[0;7m^G(B[m Help[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[11;113H(B[0;7mM-A(B[m Set Mark[12d(B[0;7m^X(B[m Exit[12;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[12;113H(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[?12l[?25h[?25l[1;129H(B[0;7mS(B[m[10;45H(B[0;7m[ Soft wrapping of overlong lines enabled ](B[m[2d[?12l[?25h[?25l[1;81H(B[0;7m*[130G(B[m[?12l[?25h[2dd[?25l[?12l[?25ha[?25l[?12l[?25hd[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25hX[?25l[?12l[?25h[K[?25l[?12l[?25hV[?25l[?12l[?25hi[?25l[?12l[?25hv[?25l[?12l[?25ha[?25l[?12l[?25h [?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[10d[K[?12l[?25h[2;9Hs[?25l[?12l[?25ho[?25l[?12l[?25hf[?25l[?12l[?25ht[?25l[?12l[?25hw[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25hi[?25l[?12l[?25hb[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[10d(B[0;7mSave modified buffer?                                                                                                              [11;1H Y(B[m Yes[K[12d(B[0;7m N(B[m No  [12;18H(B[0;7mC(B[m Cancel[K[10;23H[?12l[?25h[?25l[11d(B[0;7m^G(B[m Help[11;33H(B[0;7mM-D(B[m DOS Format[11;65H(B[0;7mM-A(B[m Append[11;97H(B[0;7mM-B(B[m Backup File[12d(B[0;7m^C(B[m Cancel[17G         [33G(B[0;7mM-M(B[m Mac Format[12;65H(B[0;7mM-P(B[m Prepend[12;97H(B[0;7m^T(B[m Browse[10d(B[0;7mFile Name to Write: archivo1_renombrado.txt(B[m[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7ma(B[m[?12l[?25h[?25l(B[0;7ms(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l[10;58H[1K (B[0;7m[ Writing... ](B[m[K[1;81H(B[0;7m [130G(B[m[10;58H(B[0;7m[ Wrote 1 line ](B[m[J[12d[?12l[?25h[12;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ cat archivo1_renombrado.te[Kxt
+[?2004lViva el software libre
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ po[Kico archivo1_renombrado
+[?2004l[?2004h[?1049h[22;0;0t[1;12r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[10;60H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                            archivo1_renombrado                                                      [1;130H(B[m[11d(B[0;7m^G(B[m Help[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[11;113H(B[0;7mM-A(B[m Set Mark[12d(B[0;7m^X(B[m Exit[12;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[12;113H(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[10d[J[12d[?12l[?25h[12;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ wc archivo1_renombrado.txt
+[?2004l 1  4 23 archivo1_renombrado.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls -lt
+[?2004ltotal 168
+-rw-rw-rw-  1 codespace codespace  1091 Jul 24 00:48 s4.sh
+-rw-rw-rw-  1 codespace codespace    23 Jul 24 00:44 archivo1_renombrado.txt
+-rw-rw-rw-  1 codespace codespace  4096 Jul 24 00:44 typescript
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:34 [0m[34;42mdir2[0m
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:33 [34;42mdir1[0m
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:24 [34;42msenana4[0m
+-rw-rw-rw-  1 codespace root      91654 Jul 24 00:21 [01;35mimage.png[0m
+-rw-rw-rw-  1 codespace root          0 Jul 24 00:21 miprograma.c
+-rw-rw-rw-  1 codespace root        162 Jul 24 00:21 s1.sh
+-rw-rw-rw-  1 codespace root        871 Jul 24 00:21 s2.sh
+-rw-rw-rw-  1 codespace root      34523 Jul 24 00:21 LICENSE
+-rw-rw-rw-  1 codespace root         87 Jul 24 00:21 README.md
+drwxrwxrwx+ 3 codespace root       4096 Jul 24 00:21 [34;42mcarpeta[0m
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ pico archivo.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;12r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[10;60H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 7.2                                                archivo.txt                                                          [1;130H(B[m[11d(B[0;7m^G(B[m Help[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[11;113H(B[0;7mM-A(B[m Set Mark[12d(B[0;7m^X(B[m Exit[12;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[12;113H(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;75H(B[0;7m*[10d(B[m[K[1;130H[2dUn sorbo de distracción[3dBuscando descifrarnos[4dNo hay nada mejor, no hay nada mejor[5dQue casa[6dTé para tres[?12l[?25h[?25l[?12l[?25h[A[?25l[?12l[?25h[Aada [?25l[?12l[?25h[A[?25l[?12l[?25h[A[?25l[?12l[?25h7[2;10r8M[1;12r[2;1H[?25l[?12l[?25h7[2;10r8M[1;12r[2;1HTé para tres[?25l[?12l[?25h7[2;10r8M[1;12r[2;1HPor él[?25l[?12l[?25h7[2;9r8M[1;12r[2;1HTe vi que llorabas, te vi que llorabas[2;13H[?25l[?12l[?25h7[2;9r8M[1;12r[2;1HY cegó nuestras miradas[2;13H[?25l[?12l[?25h7[2;9r8M[1;12r[2;1HEl eclipse no fue parcial[2;13H[?25l[?12l[?25h7[2;9r8M[1;12r[2;1H[?25l[?12l[?25h7[2;9r8M[1;12r[2;1HNo basta[?25l[?12l[?25h7[2;10r8M[1;12r[2;1HUn poco de miel, un poco de miel[2;13H[?25l[?12l[?25h7[2;9r8M[1;12r[2;1HLa lluvia derramada[13G[?25l[?12l[?25h7[2;9r8M[1;12r[2;1HLas tazas sobre el mantel[2;13H[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[10d(B[0;7mSave modified buffer?                                                                                                              [11;1H Y(B[m Yes[K[12d(B[0;7m N(B[m No  [12;18H(B[0;7mC(B[m Cancel[K[10;23H[?12l[?25h[?25l[11d(B[0;7m^G(B[m Help[11;33H(B[0;7mM-D(B[m DOS Format[11;65H(B[0;7mM-A(B[m Append[11;97H(B[0;7mM-B(B[m Backup File[12d(B[0;7m^C(B[m Cancel[17G         [33G(B[0;7mM-M(B[m Mac Format[12;65H(B[0;7mM-P(B[m Prepend[12;97H(B[0;7m^T(B[m Browse[10d(B[0;7mFile Name to Write: archivo.txt(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7mivo.txt [10;24H(B[m[?12l[?25h[?25l(B[0;7mvo.txt [24G(B[m[?12l[?25h[?25l(B[0;7mvo.txt [23G(B[m[?12l[?25h[?25l(B[0;7mo.txt [23G(B[m[?12l[?25h[?25l(B[0;7mo.txt [22G(B[m[?12l[?25h[?25l(B[0;7m.txt [22G(B[m[?12l[?25h[?25l(B[0;7m.txt [21G(B[m[?12l[?25h[?25l(B[0;7mt.txt(B[m[?12l[?25h[?25l(B[0;7me.txt(B[m[?12l[?25h[?25l(B[0;7mp.txt(B[m[?12l[?25h[?25l(B[0;7ma.txt(B[m[?12l[?25h[?25l(B[0;7mr.txt(B[m[?12l[?25h[?25l(B[0;7ma.txt(B[m[?12l[?25h[?25l(B[0;7mt.txt(B[m[?12l[?25h[?25l(B[0;7mr.txt(B[m[?12l[?25h[?25l(B[0;7me.txt(B[m[?12l[?25h[?25l(B[0;7ms.txt(B[m[?12l[?25h[?25l(B[0;7ml.txt(B[m[?12l[?25h[?25l(B[0;7me.txt(B[m[?12l[?25h[?25l(B[0;7mt.txt(B[m[?12l[?25h[?25l(B[0;7mr.txt(B[m[?12l[?25h[?25l(B[0;7ma.txt(B[m[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?        [11d Y(B[m Yes[K[12d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[10;33H[?12l[?25h[?25l[10;58H[1K (B[0;7m[ Writing... ](B[m[K[1;59H(B[0;7mteparatresletra.txt[130G(B[m[10;57H(B[0;7m[ Wrote 16 lines ](B[m[J[12d[?12l[?25h[12;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ tar [K[K[K[Kls -lt
+[?2004ltotal 176
+-rw-rw-rw-  1 codespace codespace   309 Jul 24 00:50 teparatresletra.txt
+-rw-rw-rw-  1 codespace codespace  8192 Jul 24 00:49 typescript
+-rw-rw-rw-  1 codespace codespace  1091 Jul 24 00:48 s4.sh
+-rw-rw-rw-  1 codespace codespace    23 Jul 24 00:44 archivo1_renombrado.txt
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:34 [0m[34;42mdir2[0m
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:33 [34;42mdir1[0m
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:24 [34;42msenana4[0m
+-rw-rw-rw-  1 codespace root      91654 Jul 24 00:21 [01;35mimage.png[0m
+-rw-rw-rw-  1 codespace root          0 Jul 24 00:21 miprograma.c
+-rw-rw-rw-  1 codespace root        162 Jul 24 00:21 s1.sh
+-rw-rw-rw-  1 codespace root        871 Jul 24 00:21 s2.sh
+-rw-rw-rw-  1 codespace root      34523 Jul 24 00:21 LICENSE
+-rw-rw-rw-  1 codespace root         87 Jul 24 00:21 README.md
+drwxrwxrwx+ 3 codespace root       4096 Jul 24 00:21 [34;42mcarpeta[0m
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004lLICENSE    archivo1_renombrado.txt  [0m[34;42mdir1[0m  [01;35mimage.png[0m     s1.sh  s4.sh    teparatresletra.txt
+README.md  [34;42mcarpeta[0m                  [34;42mdir2[0m  miprograma.c  s2.sh  [34;42msenana4[0m  typescript
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ tar -cvf paquete ta[K[K[K_tar ar[K[Kteparatresletra archivo1_renombrado.tc[Kxt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. archivo1_renombrado.txt[A[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct archivo1_renombrado.txt[A[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx archivo1_renombrado.txt[A[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct archivo1_renombrado.txt[A[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lteparatresletra.txt
+archivo1_renombrado.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls-lt
+[?2004lbash: ls-lt: command not found
+[?2004h[0;32m@EstebanRT-lab [1;31m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls -lt
+[?2004ltotal 192
+-rw-rw-rw-  1 codespace codespace 10240 Jul 24 00:52 paquete_tar
+-rw-rw-rw-  1 codespace codespace 12288 Jul 24 00:50 typescript
+-rw-rw-rw-  1 codespace codespace   309 Jul 24 00:50 teparatresletra.txt
+-rw-rw-rw-  1 codespace codespace  1091 Jul 24 00:48 s4.sh
+-rw-rw-rw-  1 codespace codespace    23 Jul 24 00:44 archivo1_renombrado.txt
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:34 [0m[34;42mdir2[0m
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:33 [34;42mdir1[0m
+drwxrwxrwx+ 2 codespace codespace  4096 Jul 24 00:24 [34;42msenana4[0m
+-rw-rw-rw-  1 codespace root      91654 Jul 24 00:21 [01;35mimage.png[0m
+-rw-rw-rw-  1 codespace root          0 Jul 24 00:21 miprograma.c
+-rw-rw-rw-  1 codespace root        162 Jul 24 00:21 s1.sh
+-rw-rw-rw-  1 codespace root        871 Jul 24 00:21 s2.sh
+-rw-rw-rw-  1 codespace root      34523 Jul 24 00:21 LICENSE
+-rw-rw-rw-  1 codespace root         87 Jul 24 00:21 README.md
+drwxrwxrwx+ 3 codespace root       4096 Jul 24 00:21 [34;42mcarpeta[0m
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ tar -xvf paquete ta[K[K[K_tar
+[?2004lteparatresletra.txt
+archivo1_renombrado.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004lLICENSE    archivo1_renombrado.txt  [0m[34;42mdir1[0m  [01;35mimage.png[0m     paquete_tar  s2.sh  [34;42msenana4[0m              typescript
+README.md  [34;42mcarpeta[0m                  [34;42mdir2[0m  miprograma.c  s1.sh        s4.sh  teparatresletra.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ mv paquetetar[K[K[K_tar dir2
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A [0;36m([1;31mmain[0;36m) [0m$ cd dir2
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004larchivo2_movido.txt  paquete_tar
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ tar -xvf paquete_tar
+[?2004lteparatresletra.txt
+archivo1_renombrado.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004larchivo1_renombrado.txt  archivo2_movido.txt  paquete_tar  teparatresletra.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ stat paquete [K_tar
+[?2004l  File: paquete_tar
+  Size: 10240     	Blocks: 24         IO Block: 4096   regular file
+Device: 7,4	Inode: 1310847     Links: 1
+Access: (0666/-rw-rw-rw-)  Uid: ( 1000/codespace)   Gid: ( 1000/codespace)
+Access: 2026-07-24 00:54:24.148814367 +0000
+Modify: 2026-07-24 00:52:32.461815234 +0000
+Change: 2026-07-24 00:54:02.654814534 +0000
+ Birth: 2026-07-24 00:52:32.461815234 +0000
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ man gzip
+[?2004l[?1049h[22;0;0t[?1h=[4mGZIP[24m(1)                                             General Commands Manual                                             [4mGZIP[24m(1)[m
+[m
+[1mNAME[0m[m
+       gzip, gunzip, zcat - compress or expand files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgzip [22m[ [1m-acdfhklLnNrtvV19 [22m] [[1m-S suffix[22m] [ [4mname[24m [4m...[24m  ][m
+       [1mgunzip [22m[ [1m-acfhklLnNrtvV [22m] [[1m-S suffix[22m] [ [4mname[24m [4m...[24m  ][m
+       [1mzcat [22m[ [1m-fhLV [22m] [ [4mname[24m [4m...[24m  ][m
+[m
+[1mDESCRIPTION[0m[m
+[7m Manual page gzip(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004larchivo1_renombrado.txt  archivo2_movido.txt  paquete_tar  teparatresletra.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ man tar
+[?2004l[?1049h[22;0;0t[?1h=[4mTAR[24m(1)                                                   GNU TAR Manual                                                  [4mTAR[24m(1)[m
+[m
+[1mNAME[0m[m
+       tar - an archiving utility[m
+[m
+[1mSYNOPSIS[0m[m
+   [1mTraditional usage[0m[m
+       [1mtar [22m{[1mA[22m|[1mc[22m|[1md[22m|[1mr[22m|[1mt[22m|[1mu[22m|[1mx[22m}[[1mGnSkUWOmpsMBiajJzZhPlRvwo[22m] [[4mARG[24m...][m
+[m
+   [1mUNIX-style usage[0m[m
+       [1mtar -A [22m[[4mOPTIONS[24m] [1m-f [4m[22mARCHIVE[24m [4mARCHIVE[24m...[m
+[7m Manual page tar(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ tar -cvzf paquete[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+[?2004larchivo1_renombrado.txt  archivo2_movido.txt  paquete_tar  teparatresletra.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ tar -cvzf paqieet[K[Kte[K[K[K[K[K[K[K[7marchivo1_renombrado.txt  archivo2_movido.txt [27m[7m [27m[7mpaquete_tar  teparatresletra.txt[27m[A[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[Carchivo1_renombrado.txt  archivo2_movido.txt  paquete_tar  teparatresletra.txt
+[?2004larchivo2_movido.txt
+paquete_tar
+teparatresletra.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ ls
+[?2004larchivo1_renombrado.txt  archivo2_movido.txt  paquete_tar  teparatresletra.txt
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ dr
+[?2004lbash: dr: command not found
+[?2004h[0;32m@EstebanRT-lab [1;31m➜ [1;34m/workspaces/60048-INTRODUCCION-UNIX-2-IIA-2A/dir2 [0;36m([1;31mmain[0;36m) [0m$ ls[K[Kcd
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m~ [0m$ ls
+[?2004l[0m[01;36mjava[0m  [01;36mnvm[0m
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m~ [0m$ ls -lt
+[?2004ltotal 0
+lrwxrwxrwx 1 root root 33 Mar 11 12:20 [0m[01;36mjava[0m -> [01;34m/usr/local/sdkman/candidates/java[0m
+lrwxrwxrwx 1 root root 20 Mar 11 12:20 [01;36mnvm[0m -> [01;34m/usr/local/share/nvm[0m
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m~ [0m$ cd ..
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/home [0m$ pico test.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;12r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[10;50H(B[0;1m[37m[41m[ Directory '.' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2                                                  test.sh                                                            [1;130H(B[m[11d(B[0;7m^G(B[m Help[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[11;113H(B[0;7mM-A(B[m Set Mark[12d(B[0;7m^X(B[m Exit[12;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[12;113H(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;73H(B[0;7m*[130G(B[m[?12l[?25h[2d[36m#[39m(B[m[?25l[?12l[?25h[36mq[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36m1[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h[36m![39m(B[m[?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36mi[39m(B[m[?25l[?12l[?25h[36mn[39m(B[m[?25l[?12l[?25h[36m.[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[10d[K[?12l[?25h[2;7H [?25l[?12l[?25h[36m/[39m(B[m[?25l[?12l[?25h[36mb[39m(B[m[?25l[?12l[?25h[36ma[39m(B[m[?25l[?12l[?25h[36ms[39m(B[m[?25l[?12l[?25h[36mh[39m(B[m[?25l[?12l[?25h[36m][39m(B[m[?25l[?12l[?25h[36m=[39m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[?12l[?25hm[?25l[?12l[?25hk[?25l[?12l[?25hd[?25l[?12l[?25hi[?25l[?12l[?25h(B[0;1m[34mmkdir[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h m[?25l[?12l[?25hy[?25l[?12l[?25hd[?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hy[?25l[5d[?12l[?25h[?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25hu[?25l[?12l[?25hc[?25l[?12l[?25h(B[0;1m[34mtouch[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h m[?25l[?12l[?25hy[?25l[?12l[?25hd[?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hy[?25l[?12l[?25h/[?25l[?12l[?25hm[?25l[?12l[?25hy[?25l[?12l[?25hf[?25l[?12l[?25hi[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[6d[?12l[?25h[?25l[?12l[?25hl[?25l[?12l[?25hs[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h -[?25l[?12l[?25h(B[0;1m[35m -l[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h m[?25l[?12l[?25hy[?25l[?12l[?25hd[?25l[?12l[?25hr[?25l[?12l[?25hi[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hr[?25l[?12l[?25he[?25l[?12l[?25hc[?25l[?12l[?25ht[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hy[?25l[7d[?12l[?25h[?25l[10d(B[0;7mSave modified buffer?                                                                                                              [11;1H Y(B[m Yes[K[12d(B[0;7m N(B[m No  [12;18H(B[0;7mC(B[m Cancel[K[10;23H[?12l[?25h[?25l[?12l[?25h[?25l[11d(B[0;7m^G(B[m Help[11;33H(B[0;7mM-D(B[m DOS Format[11;65H(B[0;7mM-A(B[m Append[11;97H(B[0;7mM-B(B[m Backup File[12d(B[0;7m^C(B[m Cancel[17G         [33G(B[0;7mM-M(B[m Mac Format[12;65H(B[0;7mM-P(B[m Prepend[12;97H(B[0;7m^T(B[m Browse[10d(B[0;7mFile Name to Write: test.sh(B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7m (B[m[?12l[?25h[?25l(B[0;7mt(B[m[?12l[?25h[?25l(B[0;7mx(B[m[?12l[?25h[?25l(B[0;7mt(B[m[?12l[?25h[?25l(B[0;7mSave file under DIFFERENT NAME?[11d Y(B[m Yes[K[12d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[10;33H[?12l[?25h[?25l[10;43H[1K (B[0;1m[37m[41m[ Error writing test.txt: Permission denied ][39;49m(B[m[K[11d(B[0;7m^G(B[m Help[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[11;113H(B[0;7mM-A(B[m Set Mark[12d(B[0;7m^X(B[m Exit[12;18H(B[0;7mR(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[12;113H(B[0;7mM-6(B[m Copy[?12l[?25h[7d[?25l[10d(B[0;7mSave modified buffer?                                                                                                              [11;1H Y(B[m Yes[K[12d(B[0;7m N(B[m No  [12;18H(B[0;7mC(B[m Cancel[K[10;23H[?12l[?25h[?25l[J[12d[?12l[?25h[12;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/home [0m$ bash - test.sh
+[?2004lbash: test.sh: No such file or directory
+[?2004h[0;32m@EstebanRT-lab [1;31m➜ [1;34m/home [0m$ pico test.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;12r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[10;50H(B[0;1m[37m[41m[ Directory '.' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2                                                  test.sh                                                            [1;130H(B[m[11d(B[0;7m^G(B[m Help[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[11;113H(B[0;7mM-A(B[m Set Mark[12d(B[0;7m^X(B[m Exit[12;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[12;113H(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[10d[J[12d[?12l[?25h[12;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/home [0m$ book [K=""C"A"n"c"i"o"[1P"[1P"[1P"[1P"[1P"a"n"c"i"ó"n" "d"e" "H"i"e"l"o" "y" "f"u"e"g"o"[C
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/home [0m$ autr[Kor=""G"e"o"r"g"e" "R"R" "M"a"r"t"i"n"
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/home [0m$ echo [K ""[CE"L"[1P"l" "n"o"m"b"r"e" "d"e"l" "l"i"b"r"o" "e"s" "$"{"b"o"o"k"}"[C
+[?2004lEl nombre del libro es Canción de Hielo y fuego
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/home [0m$ [7mecho "El nombre del libro es ${book}"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "El nombre del libro es ${book}" "y" "e"l" "n"o"m"b"r"e" "d"e"l" "a"u"t"o"r" "e"s" "$"{"a"u"t"o"r"}"
+[?2004lEl nombre del libro es Canción de Hielo y fuego y el nombre del autor es George RR Martin
+[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/home [0m$ [7mrm -f .git/index.lock[27mrm -f .git/index.lock
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/home [0m$ cd ..
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/ [0m$ pico test.sh
+[?2004l[?2004h[?1049h[22;0;0t[1;12r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[10;50H(B[0;1m[37m[41m[ Directory '.' is not writable ][39;49m(B[m[H(B[0;7m  GNU nano 7.2                                                  test.sh                                                            [1;130H(B[m[11d(B[0;7m^G(B[m Help[11;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut[11;65H(B[0;7m^T(B[m Execute[81G(B[0;7m^C(B[m Location     (B[0;7mM-U(B[m Undo[11;113H(B[0;7mM-A(B[m Set Mark[12d(B[0;7m^X(B[m Exit[12;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste[12;65H(B[0;7m^J(B[m Justify[81G(B[0;7m^/(B[m Go To Line   (B[0;7mM-E(B[m Redo[12;113H(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[10d[J[12d[?12l[?25h[12;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/ [0m$ [7mrm -f .git/index.lock[27mrm -f .git/index.lock
+[?2004l[?2004h[0;32m@EstebanRT-lab [0m➜ [1;34m/ [0m$ [7msudo chown -R $(whoami) . && chmod -R u+w .[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo chown -R $(whoami) . && chmod -R u+w .
+[?2004l
+
+sa  chown: changing ownership of './usr/sbin/docker-init': Read-only file system
+@EstebanRT-lab ➜ / $  ls -lt
+^[[A^[[A        chown: changing ownership of './proc/fs/nfsd': Operation not permitted
+chown: changing ownership of './proc/sys/abi/vsyscall32': Operation not permitted
+chown: changing ownership of './proc/sys/abi': Operation not permitted
+chown: changing ownership of './proc/sys/debug/exception-trace': Operation not permitted
+chown: changing ownership of './proc/sys/debug/kprobes-optimization': Operation not permitted
+chown: changing ownership of './proc/sys/debug': Operation not permitted
+chown: changing ownership of './proc/sys/dev/cdrom/autoclose': Operation not permitted
+chown: changing ownership of './proc/sys/dev/cdrom/autoeject': Operation not permitted
+chown: changing ownership of './proc/sys/dev/cdrom/check_media': Operation not permitted
+chown: changing ownership of './proc/sys/dev/cdrom/debug': Operation not permitted
+chown: changing ownership of './proc/sys/dev/cdrom/info': Operation not permitted
+chown: changing ownership of './proc/sys/dev/cdrom/lock': Operation not permitted
+chown: changing ownership of './proc/sys/dev/cdrom': Operation not permitted
+chown: changing ownership of './proc/sys/dev/hpet/max-user-freq': Operation not permitted
+chown: changing ownership of './proc/sys/dev/hpet': Operation not permitted
+chown: changing ownership of './proc/sys/dev/mac_hid/mouse_button2_keycode': Operation not permitted
+chown: changing ownership of './proc/sys/dev/mac_hid/mouse_button3_keycode': Operation not permitted
+chown: changing ownership of './proc/sys/dev/mac_hid/mouse_button_emulation': Operation not permitted
+chown: changing ownership of './proc/sys/dev/mac_hid': Operation not permitted
+chown: changing ownership of './proc/sys/dev/raid/speed_limit_max': Operation not permitted
+chown: changing ownership of './proc/sys/dev/raid/speed_limit_min': Operation not permitted
+chown: changing ownership of './proc/sys/dev/raid': Operation not permitted
+chown: changing ownership of './proc/sys/dev/scsi/logging_level': Operation not permitted
+chown: changing ownership of './proc/sys/dev/scsi': Operation not permitted
+chown: changing ownership of './proc/sys/dev/tty/ldisc_autoload': Operation not permitted
+chown: changing ownership of './proc/sys/dev/tty/legacy_tiocsti': Operation not permitted
+chown: changing ownership of './proc/sys/dev/tty': Operation not permitted
+chown: changing ownership of './proc/sys/dev': Operation not permitted
+chown: changing ownership of './proc/sys/fs/aio-max-nr': Operation not permitted
+chown: changing ownership of './proc/sys/fs/aio-nr': Operation not permitted
+chown: changing ownership of './proc/sys/fs/binfmt_misc': Operation not permitted
+chown: changing ownership of './proc/sys/fs/dentry-state': Operation not permitted
+chown: changing ownership of './proc/sys/fs/dir-notify-enable': Operation not permitted
+chown: changing ownership of './proc/sys/fs/epoll/max_user_watches': Operation not permitted
+chown: changing ownership of './proc/sys/fs/epoll': Operation not permitted
+chown: changing ownership of './proc/sys/fs/fanotify/max_queued_events': Operation not permitted
+chown: changing ownership of './proc/sys/fs/fanotify/max_user_groups': Operation not permitted
+chown: changing ownership of './proc/sys/fs/fanotify/max_user_marks': Operation not permitted
+chown: changing ownership of './proc/sys/fs/fanotify': Operation not permitted
+chown: changing ownership of './proc/sys/fs/file-max': Operation not permitted
+chown: changing ownership of './proc/sys/fs/file-nr': Operation not permitted
+chown: changing ownership of './proc/sys/fs/inode-nr': Operation not permitted
+chown: changing ownership of './proc/sys/fs/inode-state': Operation not permitted
+chown: changing ownership of './proc/sys/fs/inotify/max_queued_events': Operation not permitted
+chown: changing ownership of './proc/sys/fs/inotify/max_user_instances': Operation not permitted
+chown: changing ownership of './proc/sys/fs/inotify/max_user_watches': Operation not permitted
+chown: changing ownership of './proc/sys/fs/inotify': Operation not permitted
+chown: changing ownership of './proc/sys/fs/lease-break-time': Operation not permitted
+chown: changing ownership of './proc/sys/fs/leases-enable': Operation not permitted
+chown: changing ownership of './proc/sys/fs/mount-max': Operation not permitted
+chown: changing ownership of './proc/sys/fs/mqueue/msg_default': Operation not permitted
+chown: changing ownership of './proc/sys/fs/mqueue/msg_max': Operation not permitted
+chown: changing ownership of './proc/sys/fs/mqueue/msgsize_default': Operation not permitted
+chown: changing ownership of './proc/sys/fs/mqueue/msgsize_max': Operation not permitted
+chown: changing ownership of './proc/sys/fs/mqueue/queues_max': Operation not permitted
+chown: changing ownership of './proc/sys/fs/mqueue': Operation not permitted
+chown: changing ownership of './proc/sys/fs/nr_open': Operation not permitted
+chown: changing ownership of './proc/sys/fs/overflowgid': Operation not permitted
+chown: changing ownership of './proc/sys/fs/overflowuid': Operation not permitted
+chown: changing ownership of './proc/sys/fs/pipe-max-size': Operation not permitted
+chown: changing ownership of './proc/sys/fs/pipe-user-pages-hard': Operation not permitted
+chown: changing ownership of './proc/sys/fs/pipe-user-pages-soft': Operation not permitted
+chown: changing ownership of './proc/sys/fs/protected_fifos': Operation not permitted
+chown: changing ownership of './proc/sys/fs/protected_hardlinks': Operation not permitted
+chown: changing ownership of './proc/sys/fs/protected_regular': Operation not permitted
+chown: changing ownership of './proc/sys/fs/protected_symlinks': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota/allocated_dquots': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota/cache_hits': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota/drops': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota/free_dquots': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota/lookups': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota/reads': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota/syncs': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota/writes': Operation not permitted
+chown: changing ownership of './proc/sys/fs/quota': Operation not permitted
+chown: changing ownership of './proc/sys/fs/suid_dumpable': Operation not permitted
+chown: changing ownership of './proc/sys/fs/verity/require_signatures': Operation not permitted
+chown: changing ownership of './proc/sys/fs/verity': Operation not permitted
+chown: changing ownership of './proc/sys/fs': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/acct': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/acpi_video_flags': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/apparmor_display_secid_mode': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/apparmor_restrict_unprivileged_io_uring': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/apparmor_restrict_unprivileged_unconfined': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/apparmor_restrict_unprivileged_userns': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/apparmor_restrict_unprivileged_userns_complain': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/apparmor_restrict_unprivileged_userns_force': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/arch': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/auto_msgmni': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/bootloader_type': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/bootloader_version': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/bpf_stats_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/cad_pid': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/cap_last_cap': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/core_pattern': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/core_pipe_limit': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/core_uses_pid': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/ctrl-alt-del': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/dmesg_restrict': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/domainname': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/firmware_config/force_sysfs_fallback': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/firmware_config/ignore_sysfs_fallback': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/firmware_config': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/ftrace_dump_on_oops': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/ftrace_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hardlockup_all_cpu_backtrace': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hardlockup_panic': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hostname': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hotplug': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hung_task_all_cpu_backtrace': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hung_task_check_count': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hung_task_check_interval_secs': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hung_task_panic': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hung_task_timeout_secs': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hung_task_warnings': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/hyperv_record_panic_msg': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/io_delay_type': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/io_uring_disabled': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/io_uring_group': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/kexec_load_disabled': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/kexec_load_limit_panic': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/kexec_load_limit_reboot': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/keys/gc_delay': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/keys/maxbytes': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/keys/maxkeys': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/keys/persistent_keyring_expiry': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/keys/root_maxbytes': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/keys/root_maxkeys': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/keys': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/kptr_restrict': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/latencytop': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/max_lock_depth': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/max_rcu_stall_to_panic': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/modprobe': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/modules_disabled': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/msg_next_id': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/msgmax': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/msgmnb': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/msgmni': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/ngroups_max': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/nmi_watchdog': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/ns_last_pid': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/numa_balancing': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/numa_balancing_promote_rate_limit_MBps': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/oops_all_cpu_backtrace': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/oops_limit': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/osrelease': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/ostype': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/overflowgid': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/overflowuid': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/panic': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/panic_on_io_nmi': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/panic_on_oops': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/panic_on_rcu_stall': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/panic_on_unrecovered_nmi': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/panic_on_warn': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/panic_print': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/perf_cpu_time_max_percent': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/perf_event_max_contexts_per_stack': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/perf_event_max_sample_rate': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/perf_event_max_stack': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/perf_event_mlock_kb': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/perf_event_paranoid': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/pid_max': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/poweroff_cmd': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/print-fatal-signals': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/printk': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/printk_delay': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/printk_devkmsg': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/printk_ratelimit': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/printk_ratelimit_burst': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/pty/max': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/pty/nr': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/pty/reserve': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/pty': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/random/boot_id': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/random/entropy_avail': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/random/poolsize': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/random/urandom_min_reseed_secs': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/random/uuid': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/random/write_wakeup_threshold': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/random': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/randomize_va_space': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/real-root-dev': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_autogroup_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_cfs_bandwidth_slice_us': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_deadline_period_max_us': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_deadline_period_min_us': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_energy_aware': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_rr_timeslice_ms': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_rt_period_us': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_rt_runtime_us': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_schedstats': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_util_clamp_max': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_util_clamp_min': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sched_util_clamp_min_rt_default': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/seccomp/actions_avail': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/seccomp/actions_logged': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/seccomp': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sem': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sem_next_id': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/shm_next_id': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/shm_rmid_forced': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/shmall': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/shmmax': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/shmmni': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/soft_watchdog': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/softlockup_all_cpu_backtrace': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/softlockup_panic': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/split_lock_mitigate': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/stack_tracer_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sysctl_writes_strict': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/sysrq': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/tainted': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/task_delayacct': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/threads-max': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/timer_migration': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/traceoff_on_warning': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/tracepoint_printk': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/unknown_nmi_panic': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/unprivileged_bpf_disabled': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/unprivileged_userns_apparmor_policy': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/unprivileged_userns_clone': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/user_events_max': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/usermodehelper/bset': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/usermodehelper/inheritable': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/usermodehelper': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/version': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/warn_limit': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/watchdog': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/watchdog_cpumask': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/watchdog_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/yama/ptrace_scope': Operation not permitted
+chown: changing ownership of './proc/sys/kernel/yama': Operation not permitted
+chown: changing ownership of './proc/sys/kernel': Operation not permitted
+chown: changing ownership of './proc/sys/net/bridge/bridge-nf-call-arptables': Operation not permitted
+chown: changing ownership of './proc/sys/net/bridge/bridge-nf-call-ip6tables': Operation not permitted
+chown: changing ownership of './proc/sys/net/bridge/bridge-nf-call-iptables': Operation not permitted
+chown: changing ownership of './proc/sys/net/bridge/bridge-nf-filter-pppoe-tagged': Operation not permitted
+chown: changing ownership of './proc/sys/net/bridge/bridge-nf-filter-vlan-tagged': Operation not permitted
+chown: changing ownership of './proc/sys/net/bridge/bridge-nf-pass-vlan-input-dev': Operation not permitted
+chown: changing ownership of './proc/sys/net/bridge': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/bpf_jit_enable': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/bpf_jit_harden': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/bpf_jit_kallsyms': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/bpf_jit_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/busy_poll': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/busy_read': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/default_qdisc': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/dev_weight': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/dev_weight_rx_bias': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/dev_weight_tx_bias': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/devconf_inherit_init_net': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/fb_tunnels_only_for_init_net': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/flow_limit_cpu_bitmap': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/flow_limit_table_len': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/gro_normal_batch': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/high_order_alloc_disable': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/max_skb_frags': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/mem_pcpu_rsv': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/message_burst': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/message_cost': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/netdev_budget': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/netdev_budget_usecs': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/netdev_max_backlog': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/netdev_rss_key': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/netdev_tstamp_prequeue': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/netdev_unregister_timeout_secs': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/optmem_max': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/rmem_default': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/rmem_max': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/rps_default_mask': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/rps_sock_flow_entries': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/skb_defer_max': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/somaxconn': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/tstamp_allow_data': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/txrehash': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/warnings': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/wmem_default': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/wmem_max': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/xfrm_acq_expires': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/xfrm_aevent_etime': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/xfrm_aevent_rseqth': Operation not permitted
+chown: changing ownership of './proc/sys/net/core/xfrm_larval_drop': Operation not permitted
+chown: changing ownership of './proc/sys/net/core': Operation not permitted
+chown: changing ownership of './proc/sys/net/fan/vxlan': Operation not permitted
+chown: changing ownership of './proc/sys/net/fan': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/cipso_cache_bucket_size': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/cipso_cache_enable': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/cipso_rbm_optfmt': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/cipso_rbm_strictvalid': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/accept_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/arp_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/arp_announce': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/arp_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/arp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/arp_ignore': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/arp_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/bc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/bootp_relay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/disable_xfrm': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/drop_gratuitous_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/force_igmp_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/igmpv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/igmpv3_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/log_martians': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/medium_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/promote_secondaries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/proxy_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/proxy_arp_pvlan': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/route_localnet': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/rp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/secure_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/send_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/shared_media': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/src_valid_mark': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all/tag': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/all': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/accept_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/arp_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/arp_announce': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/arp_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/arp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/arp_ignore': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/arp_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/bc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/bootp_relay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/disable_xfrm': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/drop_gratuitous_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/force_igmp_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/igmpv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/igmpv3_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/log_martians': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/medium_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/promote_secondaries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/proxy_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/proxy_arp_pvlan': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/route_localnet': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/rp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/secure_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/send_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/shared_media': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/src_valid_mark': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default/tag': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/default': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/accept_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/arp_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/arp_announce': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/arp_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/arp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/arp_ignore': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/arp_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/bc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/bootp_relay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/disable_xfrm': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/drop_gratuitous_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/force_igmp_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/igmpv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/igmpv3_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/log_martians': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/medium_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/promote_secondaries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/proxy_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/proxy_arp_pvlan': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/route_localnet': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/rp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/secure_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/send_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/shared_media': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/src_valid_mark': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0/tag': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/docker0': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/accept_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/arp_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/arp_announce': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/arp_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/arp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/arp_ignore': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/arp_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/bc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/bootp_relay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/disable_xfrm': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/drop_gratuitous_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/force_igmp_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/igmpv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/igmpv3_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/log_martians': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/medium_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/promote_secondaries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/proxy_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/proxy_arp_pvlan': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/route_localnet': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/rp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/secure_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/send_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/shared_media': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/src_valid_mark': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0/tag': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/eth0': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/accept_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/arp_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/arp_announce': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/arp_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/arp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/arp_ignore': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/arp_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/bc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/bootp_relay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/disable_xfrm': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/drop_gratuitous_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/force_igmp_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/igmpv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/igmpv3_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/log_martians': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/medium_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/promote_secondaries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/proxy_arp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/proxy_arp_pvlan': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/route_localnet': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/rp_filter': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/secure_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/send_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/shared_media': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/src_valid_mark': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo/tag': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf/lo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/conf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/fib_multipath_hash_fields': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/fib_multipath_hash_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/fib_multipath_use_neigh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/fib_notify_on_flag_change': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/fib_sync_mem': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/fwmark_reflect': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_echo_enable_probe': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_echo_ignore_all': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_echo_ignore_broadcasts': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_errors_use_inbound_ifaddr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_ignore_bogus_error_responses': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_msgs_burst': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_msgs_per_sec': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_ratelimit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/icmp_ratemask': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/igmp_link_local_mcast_reports': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/igmp_max_memberships': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/igmp_max_msf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/igmp_qrv': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/inet_peer_maxttl': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/inet_peer_minttl': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/inet_peer_threshold': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_autobind_reuse': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_default_ttl': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_dynaddr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_early_demux': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_forward': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_forward_update_priority': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_forward_use_pmtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_local_port_range': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_local_reserved_ports': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_no_pmtu_disc': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_nonlocal_bind': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ip_unprivileged_port_start': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ipfrag_high_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ipfrag_low_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ipfrag_max_dist': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ipfrag_secret_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ipfrag_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/anycast_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/app_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/base_reachable_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/base_reachable_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/delay_first_probe_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/gc_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/gc_stale_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/gc_thresh1': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/gc_thresh2': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/gc_thresh3': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/interval_probe_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/locktime': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/mcast_resolicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/mcast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/proxy_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/proxy_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/retrans_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/retrans_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/ucast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/unres_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default/unres_qlen_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/default': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/anycast_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/app_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/base_reachable_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/base_reachable_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/delay_first_probe_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/gc_stale_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/interval_probe_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/locktime': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/mcast_resolicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/mcast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/proxy_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/proxy_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/retrans_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/retrans_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/ucast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/unres_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0/unres_qlen_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/docker0': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/anycast_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/app_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/base_reachable_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/base_reachable_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/delay_first_probe_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/gc_stale_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/interval_probe_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/locktime': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/mcast_resolicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/mcast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/proxy_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/proxy_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/retrans_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/retrans_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/ucast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/unres_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0/unres_qlen_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/eth0': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/anycast_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/app_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/base_reachable_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/base_reachable_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/delay_first_probe_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/gc_stale_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/interval_probe_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/locktime': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/mcast_resolicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/mcast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/proxy_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/proxy_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/retrans_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/retrans_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/ucast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/unres_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo/unres_qlen_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh/lo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/neigh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/nexthop_compat_mode': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/ping_group_range': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/raw_l3mdev_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/error_burst': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/error_cost': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/flush': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/gc_elasticity': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/gc_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/gc_min_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/gc_min_interval_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/gc_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/gc_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/max_size': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/min_adv_mss': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/min_pmtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/mtu_expires': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/redirect_load': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/redirect_number': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route/redirect_silence': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_abort_on_overflow': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_adv_win_scale': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_allowed_congestion_control': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_app_win': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_autocorking': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_available_congestion_control': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_available_ulp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_backlog_ack_defer': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_base_mss': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_challenge_ack_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_child_ehash_entries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_comp_sack_delay_ns': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_comp_sack_nr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_comp_sack_slack_ns': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_congestion_control': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_dsack': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_early_demux': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_early_retrans': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_ecn': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_ecn_fallback': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_ehash_entries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_fack': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_fastopen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_fastopen_blackhole_timeout_sec': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_fastopen_key': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_fin_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_frto': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_fwmark_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_invalid_ratelimit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_keepalive_intvl': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_keepalive_probes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_keepalive_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_l3mdev_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_limit_output_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_low_latency': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_max_orphans': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_max_reordering': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_max_syn_backlog': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_max_tw_buckets': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_mem': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_migrate_req': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_min_rtt_wlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_min_snd_mss': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_min_tso_segs': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_moderate_rcvbuf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_mtu_probe_floor': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_mtu_probing': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_no_metrics_save': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_no_ssthresh_metrics_save': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_notsent_lowat': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_orphan_retries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_pacing_ca_ratio': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_pacing_ss_ratio': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_pingpong_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_plb_cong_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_plb_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_plb_idle_rehash_rounds': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_plb_rehash_rounds': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_plb_suspend_rto_sec': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_probe_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_probe_threshold': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_recovery': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_reflect_tos': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_reordering': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_retrans_collapse': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_retries1': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_retries2': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_rfc1337': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_rmem': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_sack': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_shrink_window': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_slow_start_after_idle': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_stdurg': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_syn_linear_timeouts': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_syn_retries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_synack_retries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_syncookies': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_thin_linear_timeouts': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_timestamps': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_tso_rtt_log': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_tso_win_divisor': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_tw_reuse': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_window_scaling': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_wmem': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/tcp_workaround_signed_windows': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/udp_child_hash_entries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/udp_early_demux': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/udp_hash_entries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/udp_l3mdev_accept': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/udp_mem': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/udp_rmem_min': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/udp_wmem_min': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4/xfrm4_gc_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv4': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/anycast_src_echo_reply': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/auto_flowlabels': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/bindv6only': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/calipso_cache_bucket_size': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/calipso_cache_enable': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_defrtr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_from_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_min_hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_min_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_pinfo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_rt_info_max_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_rt_info_min_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_ra_rtr_pref': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/accept_untracked_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/addr_gen_mode': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/autoconf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/dad_transmits': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/disable_ipv6': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/drop_unsolicited_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/enhanced_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/force_mld_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/force_tllao': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ioam6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ioam6_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ioam6_id_wide': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/keep_addr_on_down': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/max_addresses': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/max_desync_factor': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/mldv1_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/mldv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ndisc_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ndisc_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ndisc_tclass': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/proxy_ndp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ra_defrtr_metric': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/ra_honor_pio_life': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/regen_max_retry': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/router_probe_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/router_solicitation_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/router_solicitation_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/router_solicitation_max_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/router_solicitations': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/rpl_seg_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/seg6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/seg6_require_hmac': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/stable_secret': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/suppress_frag_ndisc': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/temp_prefered_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/temp_valid_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/use_oif_addrs_only': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all/use_tempaddr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/all': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_defrtr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_from_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_min_hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_min_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_pinfo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_rt_info_max_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_rt_info_min_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_ra_rtr_pref': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/accept_untracked_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/addr_gen_mode': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/autoconf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/dad_transmits': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/disable_ipv6': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/drop_unsolicited_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/enhanced_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/force_mld_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/force_tllao': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ioam6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ioam6_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ioam6_id_wide': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/keep_addr_on_down': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/max_addresses': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/max_desync_factor': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/mldv1_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/mldv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ndisc_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ndisc_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ndisc_tclass': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/proxy_ndp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ra_defrtr_metric': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/ra_honor_pio_life': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/regen_max_retry': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/router_probe_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/router_solicitation_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/router_solicitation_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/router_solicitation_max_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/router_solicitations': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/rpl_seg_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/seg6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/seg6_require_hmac': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/stable_secret': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/suppress_frag_ndisc': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/temp_prefered_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/temp_valid_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/use_oif_addrs_only': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default/use_tempaddr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/default': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_defrtr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_from_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_min_hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_min_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_pinfo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_rt_info_max_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_rt_info_min_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_ra_rtr_pref': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/accept_untracked_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/addr_gen_mode': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/autoconf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/dad_transmits': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/disable_ipv6': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/drop_unsolicited_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/enhanced_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/force_mld_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/force_tllao': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ioam6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ioam6_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ioam6_id_wide': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/keep_addr_on_down': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/max_addresses': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/max_desync_factor': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/mldv1_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/mldv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ndisc_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ndisc_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ndisc_tclass': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/proxy_ndp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ra_defrtr_metric': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/ra_honor_pio_life': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/regen_max_retry': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/router_probe_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/router_solicitation_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/router_solicitation_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/router_solicitation_max_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/router_solicitations': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/rpl_seg_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/seg6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/seg6_require_hmac': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/stable_secret': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/suppress_frag_ndisc': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/temp_prefered_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/temp_valid_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/use_oif_addrs_only': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0/use_tempaddr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/docker0': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_defrtr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_from_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_min_hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_min_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_pinfo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_rt_info_max_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_rt_info_min_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_ra_rtr_pref': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/accept_untracked_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/addr_gen_mode': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/autoconf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/dad_transmits': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/disable_ipv6': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/drop_unsolicited_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/enhanced_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/force_mld_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/force_tllao': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ioam6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ioam6_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ioam6_id_wide': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/keep_addr_on_down': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/max_addresses': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/max_desync_factor': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/mldv1_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/mldv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ndisc_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ndisc_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ndisc_tclass': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/proxy_ndp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ra_defrtr_metric': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/ra_honor_pio_life': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/regen_max_retry': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/router_probe_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/router_solicitation_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/router_solicitation_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/router_solicitation_max_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/router_solicitations': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/rpl_seg_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/seg6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/seg6_require_hmac': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/stable_secret': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/suppress_frag_ndisc': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/temp_prefered_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/temp_valid_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/use_oif_addrs_only': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0/use_tempaddr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/eth0': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_defrtr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_from_local': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_min_hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_min_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_pinfo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_rt_info_max_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_rt_info_min_plen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_ra_rtr_pref': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_redirects': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_source_route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/accept_untracked_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/addr_gen_mode': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/autoconf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/dad_transmits': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/disable_ipv6': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/disable_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/drop_unicast_in_l2_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/drop_unsolicited_na': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/enhanced_dad': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/force_mld_version': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/force_tllao': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/hop_limit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ignore_routes_with_linkdown': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ioam6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ioam6_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ioam6_id_wide': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/keep_addr_on_down': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/max_addresses': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/max_desync_factor': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/mc_forwarding': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/mldv1_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/mldv2_unsolicited_report_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/mtu': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ndisc_evict_nocarrier': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ndisc_notify': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ndisc_tclass': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/proxy_ndp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ra_defrtr_metric': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/ra_honor_pio_life': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/regen_max_retry': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/router_probe_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/router_solicitation_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/router_solicitation_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/router_solicitation_max_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/router_solicitations': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/rpl_seg_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/seg6_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/seg6_require_hmac': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/stable_secret': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/suppress_frag_ndisc': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/temp_prefered_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/temp_valid_lft': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/use_oif_addrs_only': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo/use_tempaddr': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf/lo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/conf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/fib_multipath_hash_fields': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/fib_multipath_hash_policy': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/fib_notify_on_flag_change': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/flowlabel_consistency': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/flowlabel_reflect': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/flowlabel_state_ranges': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/fwmark_reflect': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/icmp/echo_ignore_all': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/icmp/echo_ignore_anycast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/icmp/echo_ignore_multicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/icmp/error_anycast_as_unicast': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/icmp/ratelimit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/icmp/ratemask': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/icmp': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/idgen_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/idgen_retries': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/ioam6_id': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/ioam6_id_wide': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/ip6frag_high_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/ip6frag_low_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/ip6frag_secret_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/ip6frag_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/ip_nonlocal_bind': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/max_dst_opts_length': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/max_dst_opts_number': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/max_hbh_length': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/max_hbh_opts_number': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/mld_max_msf': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/mld_qrv': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/anycast_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/app_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/base_reachable_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/base_reachable_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/delay_first_probe_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/gc_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/gc_stale_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/gc_thresh1': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/gc_thresh2': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/gc_thresh3': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/interval_probe_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/locktime': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/mcast_resolicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/mcast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/proxy_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/proxy_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/retrans_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/retrans_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/ucast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/unres_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default/unres_qlen_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/default': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/anycast_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/app_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/base_reachable_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/base_reachable_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/delay_first_probe_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/gc_stale_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/interval_probe_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/locktime': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/mcast_resolicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/mcast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/proxy_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/proxy_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/retrans_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/retrans_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/ucast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/unres_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0/unres_qlen_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/docker0': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/anycast_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/app_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/base_reachable_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/base_reachable_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/delay_first_probe_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/gc_stale_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/interval_probe_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/locktime': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/mcast_resolicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/mcast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/proxy_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/proxy_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/retrans_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/retrans_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/ucast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/unres_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0/unres_qlen_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/eth0': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/anycast_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/app_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/base_reachable_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/base_reachable_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/delay_first_probe_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/gc_stale_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/interval_probe_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/locktime': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/mcast_resolicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/mcast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/proxy_delay': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/proxy_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/retrans_time': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/retrans_time_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/ucast_solicit': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/unres_qlen': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo/unres_qlen_bytes': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh/lo': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/neigh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/flush': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/gc_elasticity': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/gc_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/gc_min_interval': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/gc_min_interval_ms': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/gc_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/gc_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/max_size': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/min_adv_mss': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/mtu_expires': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route/skip_notify_on_dev_down': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/route': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/seg6_flowlabel': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6/xfrm6_gc_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/ipv6': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp/add_addr_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp/allow_join_initial_addr_port': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp/checksum_enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp/close_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp/enabled': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp/pm_type': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp/scheduler': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp/stale_loss_cnt': Operation not permitted
+chown: changing ownership of './proc/sys/net/mptcp': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_acct': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_buckets': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_checksum': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_count': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_dccp_loose': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_dccp_timeout_closereq': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_dccp_timeout_closing': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_dccp_timeout_open': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_dccp_timeout_partopen': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_dccp_timeout_request': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_dccp_timeout_respond': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_dccp_timeout_timewait': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_events': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_expect_max': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_frag6_high_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_frag6_low_thresh': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_frag6_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_generic_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_gre_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_gre_timeout_stream': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_icmp_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_icmpv6_timeout': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_log_invalid': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_max': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_sctp_timeout_closed': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_sctp_timeout_cookie_echoed': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_sctp_timeout_cookie_wait': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_sctp_timeout_established': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_sctp_timeout_heartbeat_sent': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_sctp_timeout_shutdown_ack_sent': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_sctp_timeout_shutdown_recd': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_sctp_timeout_shutdown_sent': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_be_liberal': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_ignore_invalid_rst': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_loose': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_max_retrans': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_close': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_close_wait': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_established': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_fin_wait': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_last_ack': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_max_retrans': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_syn_recv': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_syn_sent': Operation not permitted
+chown: changing ownership of './proc/sys/net/netfilter/nf_conntrack_tcp_timeout_time_wait': Operation not permitted
+chown: changing ownership of './proc/sys/net/netf
